@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phar xmlns="https://phar.io/xml/manifest/1.0">
+    <contains name="phpunit/phpunit-parallel-extension" version="1.0.0" type="extension">
+        <extension for="phpunit/phpunit" compatible="10.0.16"/>
+    </contains>
+
+    <requires>
+        <php version="^8.1"/>
+    </requires>
+
+    <copyright>
+        <author name="Florian Patruck" email="florian.patruck@gmx.de"/>
+        <license type="BSD-3-Clause" url="https://github.com/sebastianbergmann/phpunit/blob/master/LICENSE"/>
+    </copyright>
+</phar>
